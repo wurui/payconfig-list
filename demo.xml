@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="demo.xsl"?>
+<root>
+    <env>
+        <domain>local</domain>
+    </env>
+    <p>
+        <title>demo page</title>
+        <desc>this is deme page</desc>
+        <owner>openxsl</owner>
+        <icon>//oxm1.cc/img/app_default.png</icon>
+    </p>
+    <data>
+            <payconfig-list>
+        <i>
+            <type>
+                tough mobilephone
+            </type>
+            <name>
+                camera
+            </name>
+            <biz_id>
+                laptop
+            </biz_id>
+            <site_url>
+                //oxm1.cc/img/fox.jpg
+            </site_url>
+        </i>
+    </payconfig-list>
+    </data>
+</root>
