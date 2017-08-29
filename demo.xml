@@ -4,6 +4,9 @@
     <env>
         <domain>local</domain>
     </env>
+    <login>
+        <uid>git/wurui</uid>
+    </login>
     <p>
         <title>demo page</title>
         <desc>this is deme page</desc>
@@ -11,21 +14,21 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-            <payconfig-list>
-        <i>
-            <type>
-                tough mobilephone
-            </type>
-            <name>
-                camera
-            </name>
-            <biz_id>
-                laptop
-            </biz_id>
-            <site_url>
-                //oxm1.cc/img/fox.jpg
-            </site_url>
-        </i>
-    </payconfig-list>
+        <payconfig-list>
+            <i>
+                <type>
+                    alipay
+                </type>
+                <name>
+                    camera
+                </name>
+                <biz_id>
+                    laptop
+                </biz_id>
+                <site_url>
+                    //oxm1.cc/img/fox.jpg
+                </site_url>
+            </i>
+        </payconfig-list>
     </data>
 </root>
