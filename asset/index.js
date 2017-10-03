@@ -1,9 +1,8 @@
 define(['oxjs'],function(OXJS){
     return {
         init:function($mod){
-            var dsid = $mod.attr('data-dsid'),
-                uid=$mod.attr('data-uid');
-            var Rest=OXJS.useREST('payconfig/'+dsid+'/u/' + encodeURIComponent(uid)).setDevHost('http://local.openxsl.com/');//md5('saomachetie')
+            
+            var Rest=OXJS.useREST('payconfig').setDevHost('http://dev.openxsl.com/');//md5('saomachetie')
 
 
 

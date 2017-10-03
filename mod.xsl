@@ -1,9 +1,8 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:oxm="https://www.openxsl.com">
     <xsl:template match="/root" name="wurui.payconfig-list">
-        <xsl:param name="dsid">e0ee59439b39fcc3</xsl:param>
         <xsl:param name="forward"></xsl:param>
         <!-- className 'J_OXMod' required  -->
-        <div class="J_OXMod oxmod-payconfig-list" ox-mod="payconfig-list" data-dsid="{$dsid}" data-uid="{login/uid}">
+        <div class="J_OXMod oxmod-payconfig-list" ox-mod="payconfig-list" data-uid="{login/uid}">
             <ul>
                 <xsl:for-each select="data/payconfig-list/i">
                     <li class="list-item" data-id="{_id}">
@@ -17,7 +16,7 @@
                             </a>
                         </h3>
                         <p>
-                            type:<span class="inventory"></span>
+                            type:<span class="inventory"><xsl:value-of select="type"/></span>
                             &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
                             biz_id:<b class="price"><xsl:value-of select="biz_id"/></b>
                         </p>
